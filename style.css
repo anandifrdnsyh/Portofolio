@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+section {
+  padding-top: 5rem;
+}
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #363543;
+}
+#projects {
+  padding-bottom: 3rem;
+  background-color: #363543;
+}
+.timeline {
+  border-left: 1px dashed hsl(193deg, 84%, 52%);
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.timeline .timeline-box {
+  padding-left: 40px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-icon {
+  left: -18px;
+  top: 0;
+  background-color: #363543;
+  position: absolute;
+  width: 35px;
+  z-index: 1;
+  text-align: center;
+  line-height: 35px;
+}
+
+.timeline-icon i {
+  color: #ffff;
+}
+
+/* sesudah timlien icon */
+.timeline .timeline-icon:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #363543;
+  opacity: 0.5;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  margin: -4px;
+}
+
+.col h2 {
+  font-weight: bold;
+}
+
+.card-body h5 {
+  font-weight: bold;
+}
