@@ -76,3 +76,7 @@ section {
   text-decoration: none;
   color: black;
 }
+
+.justify p {
+  text-align: justify;
+}
